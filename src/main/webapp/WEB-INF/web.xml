@@ -1,0 +1,40 @@
+
+<web-app>
+
+  <display-name>Archetype Created Web Application</display-name>
+  
+  <welcome-file-list>
+  <welcome-file>signup.html</welcome-file>
+  
+  </welcome-file-list>
+  
+  <servlet>
+  
+  <servlet-name>firstServlet</servlet-name>
+  <servlet-class>com.controller.Signup_Servlet</servlet-class>
+  
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>firstServlet</servlet-name>
+  <url-pattern>/signup</url-pattern>
+  
+  </servlet-mapping>
+  
+  
+  <servlet>
+  <servlet-name>secondServ</servlet-name>
+  <servlet-class>com.controller.Login_Servlet</servlet-class>
+  
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>secondServ</servlet-name>
+  <url-pattern>/login</url-pattern>
+  
+  
+  
+  </servlet-mapping>
+  
+  
+  
+</web-app>
